@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .container__header {
+    height: 30%;
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .container__body {
+    height: 70%;
+
+    .container__body__content {
+
+    }
+
+    .container__body__button {
+      margin-top: 2rem;
+      text-align: center;
+    }
+  }
+}

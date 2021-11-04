@@ -1,0 +1,25 @@
+.container .container__content {
+  display: flex;
+  flex-direction: column;
+}
+.container .container__content .primary {
+  font-size: 1.1em;
+  text-align: center;
+  text-decoration: underline;
+}
+.container .container__content .info__block {
+  margin-top: 5vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border: 2px solid lightsteelblue;
+  border-radius: 1em;
+}
+.container .container__content .info__block div {
+  margin: 2vh;
+}
+.container .container__content .button {
+  text-align: center;
+  margin-top: 2vh;
+}
+
+/*# sourceMappingURL=RequestById.module.css.map */

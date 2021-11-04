@@ -1,0 +1,31 @@
+.container {
+
+  .container__content {
+    display: flex;
+    flex-direction: column;
+
+    .primary {
+      font-size: 1.1em;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    .info__block {
+      margin-top: 5vh;
+      margin-left: 1vw;
+      margin-right: 1vw;
+
+      border: 2px solid lightsteelblue;
+      border-radius: 1em;
+
+      div {
+        margin: 2vh;
+      }
+    }
+
+    .button {
+      text-align: center;
+      margin-top: 2vh;
+    }
+  }
+}
